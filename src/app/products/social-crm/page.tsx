@@ -64,7 +64,7 @@ export default function SocialCRM() {
                   'Plan and schedule posts in advance with optimal timing recommendations',
               },
               {
-                icon: MessageSquare,
+                icon: '',
                 title: 'Unified Inbox',
                 description:
                   'Respond to comments, messages, and mentions across all channels in one place',
