@@ -317,9 +317,9 @@ This project is proprietary to suaveeTech. All rights reserved.
 ## Support
 
 For questions or support:
-- Email: info@suaveeTech.com
-- Phone: +1 (234) 567-8900
-- Website: https://suaveeTech.com
+- Email: info@suavee.tech
+- Phone: +917018633650
+- Website: https://www.suavee.tech/
 
 ## Contributing
 

@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
     // Prepare email data
     const emailData = {
-      to: process.env.CONTACT_EMAIL || 'info@suaveeTech.com',
+      to: process.env.CONTACT_EMAIL || 'info@suavee.tech',
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
