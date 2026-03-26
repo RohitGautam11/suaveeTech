@@ -1,6 +1,6 @@
-# TravelSquad - Quick Start Guide
+# suaveeTech - Quick Start Guide
 
-Get the TravelSquad website up and running in 15 minutes!
+Get the suaveeTech website up and running in 15 minutes!
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Get the TravelSquad website up and running in 15 minutes!
 
 ```bash
 # 1. Clone or navigate to project
-cd travelsquad
+cd suaveeTech
 
 # 2. Install dependencies
 npm install
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 #### 2. Update Header & Footer
 File: `src/components/Header.tsx` and `src/components/Footer.tsx`
 
-- Replace "TravelSquad" with your company name
+- Replace "suaveeTech" with your company name
 - Update contact information
 - Update social media links
 - Update navigation links if needed
@@ -173,7 +173,7 @@ See `DEPLOYMENT.md` for detailed deployment instructions.
 ## Project Structure
 
 ```
-travelsquad/
+suaveeTech/
 ├── src/
 │   ├── app/              # Next.js app directory (pages)
 │   ├── components/       # Reusable React components
@@ -352,9 +352,9 @@ npm run build
 
 ### Support
 
-- Email: info@travelsquad.com
+- Email: info@suaveeTech.com
 - Phone: +1 (234) 567-8900
-- Website: https://travelsquad.com
+- Website: https://suaveeTech.com
 
 ---
 

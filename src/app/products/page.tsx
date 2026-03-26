@@ -8,7 +8,7 @@ import { CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Products',
   description:
-    'Explore TravelSquad SaaS products - Travel CRM, Social CRM, and Power Dialer. Solutions designed for modern businesses.',
+    'Explore suaveeTech SaaS products - Travel CRM, Social CRM, and Power Dialer. Solutions designed for modern businesses.',
   keywords: ['SaaS products', 'CRM software', 'power dialer', 'travel software'],
 }
 

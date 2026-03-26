@@ -4,12 +4,12 @@ import { Header } from '@/src/components/Header'
 import { Footer } from '@/src/components/Footer'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://travelsquad.com'),
+  metadataBase: new URL('https://suaveeTech.tech'),
   title: {
-    default: 'TravelSquad - Software Development & SaaS Solutions',
-    template: '%s | TravelSquad',
+    default: 'suaveeTech - Software Development & SaaS Solutions',
+    template: '%s | suaveeTech',
   },
-  description: 'TravelSquad is a leading software development agency specializing in custom SaaS platforms, CRM solutions, and automation systems for startups and enterprises.',
+  description: 'suaveeTech is a leading software development agency specializing in custom SaaS platforms, CRM solutions, and automation systems for startups and enterprises.',
   keywords: [
     'software development company',
     'SaaS development agency',
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     'custom automation systems',
     'IT consulting',
   ],
-  authors: [{ name: 'TravelSquad' }],
-  creator: 'TravelSquad',
-  publisher: 'TravelSquad',
+  authors: [{ name: 'suaveeTech' }],
+  creator: 'suaveeTech',
+  publisher: 'suaveeTech',
   robots: {
     index: true,
     follow: true,
@@ -35,30 +35,30 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://travelsquad.com',
-    siteName: 'TravelSquad',
-    title: 'TravelSquad - Software Development & SaaS Solutions',
+    url: 'https://suaveeTech.com',
+    siteName: 'suaveeTech',
+    title: 'suaveeTech - Software Development & SaaS Solutions',
     description: 'Leading software development agency for custom SaaS platforms and enterprise solutions',
     images: [
       {
         url: 'https://via.placeholder.com/1200x630',
         width: 1200,
         height: 630,
-        alt: 'TravelSquad - Software Development',
+        alt: 'suaveeTech - Software Development',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TravelSquad - Software Development & SaaS Solutions',
+    title: 'suaveeTech - Software Development & SaaS Solutions',
     description: 'Leading software development agency for custom SaaS platforms',
-    creator: '@travelsquaddev',
+    creator: '@suaveeTechdev',
     images: ['https://via.placeholder.com/1200x630'],
   },
   alternates: {
-    canonical: 'https://travelsquad.com',
+    canonical: 'https://suaveeTech.com',
     languages: {
-      en: 'https://travelsquad.com',
+      en: 'https://suaveeTech.com',
     },
   },
   viewport: {

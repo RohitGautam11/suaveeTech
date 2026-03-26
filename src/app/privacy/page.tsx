@@ -3,7 +3,7 @@ import { Hero } from '@/src/components/Hero'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for TravelSquad',
+  description: 'Privacy Policy for suaveeTech',
 }
 
 export default function Privacy() {
@@ -20,7 +20,7 @@ export default function Privacy() {
                 <strong>Last Updated: March 2024</strong>
               </p>
               <p className="text-gray-700">
-                TravelSquad ("we," "our," or "us") operates the travelsquad.com website. This Privacy Policy
+                suaveeTech ("we," "our," or "us") operates the suaveeTech.com website. This Privacy Policy
                 explains how we collect, use, disclose, and otherwise handle your information when you use our
                 website and services.
               </p>
@@ -133,9 +133,9 @@ export default function Privacy() {
               </p>
               <div className="mt-4 p-4 bg-light rounded-lg">
                 <p className="text-gray-700">
-                  <strong>TravelSquad</strong>
+                  <strong>suaveeTech</strong>
                   <br />
-                  Email: info@travelsquad.com
+                  Email: info@suaveeTech.com
                   <br />
                   Phone: +1 (234) 567-8900
                   <br />

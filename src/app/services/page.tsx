@@ -16,7 +16,7 @@ import { CTASection } from '@/src/components/CTASection'
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Explore TravelSquad services - Custom SaaS Development, CRM Solutions, Automation, API Integration, and more.',
+    'Explore suaveeTech services - Custom SaaS Development, CRM Solutions, Automation, API Integration, and more.',
   keywords: ['software development', 'SaaS services', 'CRM development', 'automation'],
 }
 

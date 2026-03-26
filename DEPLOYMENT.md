@@ -1,6 +1,6 @@
-# TravelSquad - Deployment Guide
+# suaveeTech - Deployment Guide
 
-Complete guide for deploying the TravelSquad website to production environments.
+Complete guide for deploying the suaveeTech website to production environments.
 
 ## Table of Contents
 
@@ -39,8 +39,8 @@ Before deploying, ensure the following are completed:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/travelsquad.git
-cd travelsquad
+git clone https://github.com/yourusername/suaveeTech.git
+cd suaveeTech
 
 # Install dependencies
 npm install
@@ -58,14 +58,14 @@ Create a `.env.local` file with the following variables:
 
 ```env
 # Email Configuration (Choose one service)
-CONTACT_EMAIL=info@travelsquad.com
+CONTACT_EMAIL=info@suaveeTech.com
 
 # SendGrid
 SENDGRID_API_KEY=SG.your_api_key_here
 
 # OR Mailgun
 MAILGUN_API_KEY=key-your_api_key_here
-MAILGUN_DOMAIN=mail.travelsquad.com
+MAILGUN_DOMAIN=mail.suaveeTech.com
 
 # Analytics
 GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
@@ -74,10 +74,10 @@ GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
 CALENDLY_LINK=https://calendly.com/your-profile
 
 # Database (if using)
-DATABASE_URL=postgresql://user:password@host:5432/travelsquad_prod
+DATABASE_URL=postgresql://user:password@host:5432/suaveeTech_prod
 
 # API Configuration
-API_URL=https://travelsquad.com
+API_URL=https://suaveeTech.com
 NODE_ENV=production
 
 # Payment (if implementing)
@@ -153,10 +153,10 @@ Or redeploy from the Vercel dashboard by pushing to main branch.
 
 ```bash
 # Test the deployment
-curl https://travelsquad.com
+curl https://suaveeTech.com
 
 # Check Core Web Vitals
-# Visit https://travelsquad.vercel.app/_analytics or use PageSpeed Insights
+# Visit https://suaveeTech.vercel.app/_analytics or use PageSpeed Insights
 ```
 
 ---
@@ -241,8 +241,8 @@ sudo apt-get install -y nodejs
 sudo npm install -g pm2
 
 # Clone repository
-git clone https://github.com/yourusername/travelsquad.git
-cd travelsquad
+git clone https://github.com/yourusername/suaveeTech.git
+cd suaveeTech
 ```
 
 #### Step 2: Install Dependencies & Build
@@ -259,7 +259,7 @@ npm run build
 cat > ecosystem.config.js << EOF
 module.exports = {
   apps: [{
-    name: 'travelsquad',
+    name: 'suaveeTech',
     script: './node_modules/.bin/next',
     args: 'start',
     instances: 'max',
@@ -285,12 +285,12 @@ pm2 startup
 sudo apt-get install nginx
 
 # Create Nginx configuration
-sudo nano /etc/nginx/sites-available/travelsquad
+sudo nano /etc/nginx/sites-available/suaveeTech
 
 # Add configuration:
 server {
     listen 80;
-    server_name travelsquad.com www.travelsquad.com;
+    server_name suaveeTech.com www.suaveeTech.com;
     
     location / {
         proxy_pass http://localhost:3000;
@@ -303,7 +303,7 @@ server {
 }
 
 # Enable site
-sudo ln -s /etc/nginx/sites-available/travelsquad /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/suaveeTech /etc/nginx/sites-enabled/
 
 # Test configuration
 sudo nginx -t
@@ -319,7 +319,7 @@ sudo systemctl restart nginx
 sudo apt-get install certbot python3-certbot-nginx
 
 # Generate SSL certificate
-sudo certbot --nginx -d travelsquad.com -d www.travelsquad.com
+sudo certbot --nginx -d suaveeTech.com -d www.suaveeTech.com
 
 # Auto-renewal will be configured automatically
 ```
@@ -448,8 +448,8 @@ npm install npm@latest -g
 ```bash
 # Database backups (if using RDS)
 aws rds create-db-snapshot \
-  --db-instance-identifier travelsquad-db \
-  --db-snapshot-identifier travelsquad-backup-$(date +%Y%m%d)
+  --db-instance-identifier suaveeTech-db \
+  --db-snapshot-identifier suaveeTech-backup-$(date +%Y%m%d)
 
 # Automated backups (AWS RDS): Enable in console
 # Retention: 30 days recommended
@@ -466,7 +466,7 @@ tail -f /var/log/nginx/access.log
 tail -f /var/log/nginx/error.log
 
 # Application logs
-pm2 logs travelsquad
+pm2 logs suaveeTech
 ```
 
 ---
@@ -478,7 +478,7 @@ pm2 logs travelsquad
 1. Go to [Google Search Console](https://search.google.com/search-console)
 2. Add property for your domain
 3. Verify domain ownership
-4. Submit XML sitemap: `https://travelsquad.com/sitemap.xml`
+4. Submit XML sitemap: `https://suaveeTech.com/sitemap.xml`
 5. Submit robots.txt
 6. Monitor search performance
 
@@ -512,7 +512,7 @@ pm2 logs travelsquad
 # Local testing
 npm install -g lighthouse
 
-lighthouse https://travelsquad.com --view
+lighthouse https://suaveeTech.com --view
 
 # Or use PageSpeed Insights
 # https://pagespeed.web.dev/
@@ -534,10 +534,10 @@ Target metrics:
 
 ```bash
 # Using Apache Bench
-ab -n 1000 -c 100 https://travelsquad.com/
+ab -n 1000 -c 100 https://suaveeTech.com/
 
 # Using Vegeta
-echo "GET https://travelsquad.com/" | vegeta attack -duration=30s | vegeta report
+echo "GET https://suaveeTech.com/" | vegeta attack -duration=30s | vegeta report
 ```
 
 ---
@@ -595,13 +595,13 @@ npm install -g next-bundle-analyzer
 
 ```bash
 # Check DNS records
-nslookup travelsquad.com
+nslookup suaveeTech.com
 
 # Verify CNAME/A records are correct
-dig travelsquad.com
+dig suaveeTech.com
 
 # Test SSL certificate
-openssl s_client -connect travelsquad.com:443
+openssl s_client -connect suaveeTech.com:443
 ```
 
 ### SSL Certificate Issues
@@ -670,7 +670,7 @@ headers: [
 
 ```bash
 # Verify SSL
-ssl-test.ssllabs.com/ssltest/?d=travelsquad.com
+ssl-test.ssllabs.com/ssltest/?d=suaveeTech.com
 
 # Enforce HTTPS in Nginx
 add_header Strict-Transport-Security "max-age=31536000" always;
@@ -697,4 +697,4 @@ For deployment issues:
 - AWS: AWS Support Console
 - Community: Next.js Discord
 
-Contact TravelSquad: info@travelsquad.com
+Contact suaveeTech: info@suaveeTech.com

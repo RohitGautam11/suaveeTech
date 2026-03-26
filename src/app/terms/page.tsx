@@ -3,7 +3,7 @@ import { Hero } from '@/src/components/Hero'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for TravelSquad',
+  description: 'Terms of Service for suaveeTech',
 }
 
 export default function Terms() {
@@ -25,8 +25,8 @@ export default function Terms() {
                 <strong>Last Updated: March 2024</strong>
               </p>
               <p>
-                These Terms of Service ("Terms") constitute a binding agreement between you and TravelSquad ("Company,"
-                "we," "us," or "our"). By accessing and using the travelsquad.com website and our services, you agree
+                These Terms of Service ("Terms") constitute a binding agreement between you and suaveeTech ("Company,"
+                "we," "us," or "our"). By accessing and using the suaveeTech.com website and our services, you agree
                 to be bound by these Terms. If you do not agree to these Terms, do not use our services.
               </p>
             </div>
@@ -35,7 +35,7 @@ export default function Terms() {
               <h3 className="heading-sm mb-4">1. Use License</h3>
               <p className="mb-4">
                 Permission is granted to temporarily download one copy of the materials (information or software) on
-                TravelSquad's website for personal, non-commercial transitory viewing only. This is the grant of a
+                suaveeTech's website for personal, non-commercial transitory viewing only. This is the grant of a
                 license, not a transfer of title, and under this license you may not:
               </p>
               <ul className="space-y-2 ml-4">
@@ -50,7 +50,7 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">2. Disclaimer</h3>
               <p className="mb-4">
-                The materials on TravelSquad's website are provided on an 'as is' basis. TravelSquad makes no
+                The materials on suaveeTech's website are provided on an 'as is' basis. suaveeTech makes no
                 warranties, expressed or implied, and hereby disclaims and negates all other warranties including,
                 without limitation, implied warranties or conditions of merchantability, fitness for a particular
                 purpose, or non-infringement of intellectual property or other violation of rights.
@@ -60,9 +60,9 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">3. Limitations</h3>
               <p className="mb-4">
-                In no event shall TravelSquad or its suppliers be liable for any damages (including, without
+                In no event shall suaveeTech or its suppliers be liable for any damages (including, without
                 limitation, damages for loss of data or profit, or due to business interruption) arising out of the
-                use or inability to use materials on TravelSquad's website, even if TravelSquad or an authorized
+                use or inability to use materials on suaveeTech's website, even if suaveeTech or an authorized
                 representative has been notified orally or in writing of the possibility of such damage.
               </p>
             </div>
@@ -70,9 +70,9 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">4. Accuracy of Materials</h3>
               <p>
-                The materials appearing on TravelSquad's website could include technical, typographical, or
-                photographic errors. TravelSquad does not warrant that any of the materials on our website are
-                accurate, complete, or current. TravelSquad may make changes to the materials contained on its website
+                The materials appearing on suaveeTech's website could include technical, typographical, or
+                photographic errors. suaveeTech does not warrant that any of the materials on our website are
+                accurate, complete, or current. suaveeTech may make changes to the materials contained on its website
                 at any time without notice.
               </p>
             </div>
@@ -80,8 +80,8 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">5. Links</h3>
               <p>
-                TravelSquad has not reviewed all of the sites linked to its website and is not responsible for the
-                contents of any such linked site. The inclusion of any link does not imply endorsement by TravelSquad of
+                suaveeTech has not reviewed all of the sites linked to its website and is not responsible for the
+                contents of any such linked site. The inclusion of any link does not imply endorsement by suaveeTech of
                 the site. Use of any such linked website is at the user's own risk.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">6. Modifications</h3>
               <p>
-                TravelSquad may revise and change these Terms at any time without notice. Your continued use of the
+                suaveeTech may revise and change these Terms at any time without notice. Your continued use of the
                 website following the posting of revised Terms means that you accept and agree to the changes.
               </p>
             </div>
@@ -105,7 +105,7 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">8. User Content</h3>
               <p className="mb-4">
-                You may submit, post, or display content on or via our services. By doing so, you grant TravelSquad a
+                You may submit, post, or display content on or via our services. By doing so, you grant suaveeTech a
                 non-exclusive, worldwide, royalty-free license to use, copy, reproduce, process, adapt, modify,
                 publish, transmit, display, and distribute such content.
               </p>
@@ -127,7 +127,7 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">10. Termination</h3>
               <p>
-                TravelSquad may terminate or suspend access to our services at any time, for any reason, at our sole
+                suaveeTech may terminate or suspend access to our services at any time, for any reason, at our sole
                 discretion, without notice or liability.
               </p>
             </div>
@@ -135,7 +135,7 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">11. Limitation of Liability</h3>
               <p>
-                To the fullest extent permitted by law, in no event will TravelSquad be liable to you for any
+                To the fullest extent permitted by law, in no event will suaveeTech be liable to you for any
                 indirect, incidental, special, consequential, or punitive damages, regardless of the cause or theory
                 of liability.
               </p>
@@ -144,7 +144,7 @@ export default function Terms() {
             <div>
               <h3 className="heading-sm mb-4">12. Indemnification</h3>
               <p>
-                You agree to indemnify, defend, and hold harmless TravelSquad and its officers, directors, employees,
+                You agree to indemnify, defend, and hold harmless suaveeTech and its officers, directors, employees,
                 and agents from any and all claims, damages, losses, costs, and expenses arising out of or relating to
                 your use of our website or services.
               </p>
@@ -157,9 +157,9 @@ export default function Terms() {
               </p>
               <div className="p-4 bg-light rounded-lg">
                 <p>
-                  <strong>TravelSquad</strong>
+                  <strong>suaveeTech</strong>
                   <br />
-                  Email: legal@travelsquad.com
+                  Email: legal@suaveeTech.com
                   <br />
                   Phone: +1 (234) 567-8900
                   <br />

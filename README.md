@@ -1,6 +1,6 @@
-# TravelSquad - IT Company Website
+# suaveeTech - IT Company Website
 
-A modern, high-performance website for TravelSquad, an IT company offering software development and SaaS solutions. Built with Next.js, React, and Tailwind CSS.
+A modern, high-performance website for suaveeTech, an IT company offering software development and SaaS solutions. Built with Next.js, React, and Tailwind CSS.
 
 ## Features
 
@@ -49,8 +49,8 @@ A modern, high-performance website for TravelSquad, an IT company offering softw
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/travelsquad.git
-cd travelsquad
+git clone https://github.com/yourusername/suaveeTech.git
+cd suaveeTech
 ```
 
 ### 2. Install Dependencies
@@ -90,7 +90,7 @@ npm start
 ## Project Structure
 
 ```
-travelsquad/
+suaveeTech/
 ├── src/
 │   ├── app/
 │   │   ├── page.tsx              # Home page
@@ -244,7 +244,7 @@ import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 
 ```env
 # Email Service
-CONTACT_EMAIL=info@travelsquad.com
+CONTACT_EMAIL=info@suaveeTech.com
 SENDGRID_API_KEY=your_api_key
 
 # Analytics
@@ -254,10 +254,10 @@ GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
 CALENDLY_LINK=https://calendly.com/your-link
 
 # Database (optional)
-DATABASE_URL=postgresql://user:password@localhost:5432/travelsquad
+DATABASE_URL=postgresql://user:password@localhost:5432/suaveeTech
 
 # API
-API_URL=https://travelsquad.com
+API_URL=https://suaveeTech.com
 NODE_ENV=production
 ```
 
@@ -312,14 +312,14 @@ npm update --latest
 
 ## License
 
-This project is proprietary to TravelSquad. All rights reserved.
+This project is proprietary to suaveeTech. All rights reserved.
 
 ## Support
 
 For questions or support:
-- Email: info@travelsquad.com
+- Email: info@suaveeTech.com
 - Phone: +1 (234) 567-8900
-- Website: https://travelsquad.com
+- Website: https://suaveeTech.com
 
 ## Contributing
 
@@ -331,4 +331,4 @@ Internal team contributions only. Please follow:
 
 ---
 
-**Built with ❤️ by TravelSquad Team**
+**Built with ❤️ by suaveeTech Team**

@@ -21,7 +21,7 @@ import { Stats } from '@/src/components/Stats'
 export const metadata: Metadata = {
   title: 'Home',
   description:
-    'TravelSquad - Building scalable SaaS platforms and automation systems for modern businesses.',
+    'suaveeTech - Building scalable SaaS platforms and automation systems for modern businesses.',
   keywords: [
     'software development',
     'SaaS solutions',
@@ -175,7 +175,7 @@ export default function Home() {
       <section className="section bg-gradient-dark text-white">
         <div className="container-tight">
           <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Why Choose TravelSquad?</h2>
+            <h2 className="heading-lg mb-4">Why Choose suaveeTech?</h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
               We're not just developers. We're your technology partners dedicated to your success.
             </p>
@@ -276,7 +276,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <Testimonial
-              quote="TravelSquad transformed our business with their Travel CRM. The platform is intuitive and has increased our conversion rates by 300%."
+              quote="suaveeTech transformed our business with their Travel CRM. The platform is intuitive and has increased our conversion rates by 300%."
               author="John Smith"
               title="CEO"
               company="Global Travel Agency"

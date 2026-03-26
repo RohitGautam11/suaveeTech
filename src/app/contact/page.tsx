@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Get in touch with TravelSquad. Reach out to discuss your software development and SaaS project needs.',
+    'Get in touch with suaveeTech. Reach out to discuss your software development and SaaS project needs.',
   keywords: ['contact', 'get in touch', 'contact form', 'consultation'],
 }
 
@@ -37,8 +37,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">info@travelsquad.com</p>
-                    <p className="text-gray-600">support@travelsquad.com</p>
+                    <p className="text-gray-600">info@suaveeTech.com</p>
+                    <p className="text-gray-600">support@suaveeTech.com</p>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
-                    <p className="text-gray-600">TravelSquad Inc.</p>
+                    <p className="text-gray-600">suaveeTech Inc.</p>
                     <p className="text-gray-600">123 Tech Street</p>
                     <p className="text-gray-600">San Francisco, CA 94105</p>
                   </div>

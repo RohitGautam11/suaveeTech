@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
     // Prepare email data
     const emailData = {
-      to: process.env.CONTACT_EMAIL || 'info@travelsquad.com',
+      to: process.env.CONTACT_EMAIL || 'info@suaveeTech.com',
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
@@ -56,13 +56,13 @@ export async function POST(request: NextRequest) {
     // Send confirmation email to user
     const confirmationEmail = {
       to: email,
-      subject: 'We Received Your Message - TravelSquad',
+      subject: 'We Received Your Message - suaveeTech',
       html: `
         <h2>Thank You for Your Interest!</h2>
         <p>Hi ${name},</p>
         <p>We've received your message and will get back to you as soon as possible, typically within 2 business hours.</p>
         <p>In the meantime, feel free to explore our website or check out our blog for more information about our services.</p>
-        <p>Best regards,<br>The TravelSquad Team</p>
+        <p>Best regards,<br>The suaveeTech Team</p>
       `,
     }
 

@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Case Studies',
   description:
-    'Explore our case studies - see how TravelSquad has helped businesses achieve their goals through innovative software solutions.',
+    'Explore our case studies - see how suaveeTech has helped businesses achieve their goals through innovative software solutions.',
   keywords: ['case studies', 'success stories', 'project examples', 'client results'],
 }
 

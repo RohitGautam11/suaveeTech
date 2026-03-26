@@ -1,7 +1,7 @@
 {
-  "name": "travelsquad",
+  "name": "suaveeTech",
   "version": "1.0.0",
-  "description": "TravelSquad - IT Company Website for Software Development & SaaS Solutions",
+  "description": "suaveeTech - IT Company Website for Software Development & SaaS Solutions",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

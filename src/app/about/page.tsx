@@ -8,7 +8,7 @@ import { Code2, Users, Zap, Award } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'Learn about TravelSquad - our mission, vision, and expertise in software development and SaaS solutions.',
+    'Learn about suaveeTech - our mission, vision, and expertise in software development and SaaS solutions.',
   keywords: ['about us', 'company story', 'mission', 'vision', 'software development'],
 }
 
@@ -17,7 +17,7 @@ export default function About() {
     <main className="pt-20">
       {/* Hero Section */}
       <Hero
-        title="About TravelSquad"
+        title="About suaveeTech"
         subtitle="We're passionate about building transformative software solutions that help businesses scale and succeed in the digital age."
         showImage={false}
         backgroundGradient="gradient-dark"
@@ -30,7 +30,7 @@ export default function About() {
             <div>
               <h2 className="heading-lg mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-4">
-                TravelSquad was founded in 2012 by a group of passionate software engineers who believed that businesses deserved access to enterprise-grade technology without the enterprise price tag.
+                suaveeTech was founded in 2012 by a group of passionate software engineers who believed that businesses deserved access to enterprise-grade technology without the enterprise price tag.
               </p>
               <p className="text-lg text-gray-600 mb-4">
                 What started as a small development team has grown into a full-service software development and SaaS company serving startups, scale-ups, and enterprises across multiple industries.
@@ -203,7 +203,7 @@ export default function About() {
       {/* Final CTA */}
       <CTASection
         title="Let's Work Together"
-        subtitle="Join hundreds of companies that trust TravelSquad to deliver innovative software solutions."
+        subtitle="Join hundreds of companies that trust suaveeTech to deliver innovative software solutions."
         buttonText="Start Your Project"
         buttonLink="/contact"
       />

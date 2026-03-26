@@ -25,7 +25,7 @@ export function Header() {
           <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-lg">TS</span>
           </div>
-          <span className="font-bold text-xl text-dark hidden sm:inline">TravelSquad</span>
+          <span className="font-bold text-xl text-dark hidden sm:inline">suaveeTech</span>
         </Link>
 
         {/* Desktop Navigation */}

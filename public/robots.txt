@@ -8,8 +8,8 @@ Disallow: /private/
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://travelsquad.com/sitemap.xml
-Sitemap: https://travelsquad.com/sitemap-blog.xml
+Sitemap: https://suaveeTech.com/sitemap.xml
+Sitemap: https://suaveeTech.com/sitemap-blog.xml
 
 # Specific bots
 User-agent: Googlebot
