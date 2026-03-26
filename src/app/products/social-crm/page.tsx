@@ -8,6 +8,7 @@ import {
   Users,
   Zap,
   ArrowRight,
+  MessageSquare,
 } from 'lucide-react'
 import { Hero } from '@/src/components/Hero'
 import { CTASection } from '@/src/components/CTASection'
@@ -64,7 +65,7 @@ export default function SocialCRM() {
                   'Plan and schedule posts in advance with optimal timing recommendations',
               },
               {
-                icon: '',
+                icon: MessageSquare,
                 title: 'Unified Inbox',
                 description:
                   'Respond to comments, messages, and mentions across all channels in one place',

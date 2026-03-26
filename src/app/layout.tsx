@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './../globals.css'
 import { Header } from '@/src/components/Header'
 import { Footer } from '@/src/components/Footer'
@@ -61,15 +61,16 @@ export const metadata: Metadata = {
       en: 'https://suaveeTech.com',
     },
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-    userScalable: true,
-  },
   verification: {
     google: 'your-google-verification-code',
   },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 }
 
 export default function RootLayout({
