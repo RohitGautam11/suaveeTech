@@ -11,6 +11,12 @@ export const metadata: Metadata = {
 }
 
 export default function Contact() {
+
+    const onSuccess = () => {
+      console.log('Success')
+    }
+
+
   return (
     <main className="pt-20">
       {/* Hero Section */}
@@ -93,13 +99,7 @@ export default function Contact() {
             {/* Contact Form */}
             <div>
               <h2 className="heading-lg mb-8">Send us a Message</h2>
-              <ContactForm
-                showCompany={true}
-                showService={true}
-                onSuccess={() => {
-                  // Optional: Handle success
-                }}
-              />
+              <ContactForm showCompany showService />
             </div>
           </div>
         </div>
