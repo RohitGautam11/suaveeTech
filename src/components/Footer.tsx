@@ -86,19 +86,19 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <a href="mailto:info@suaveeTech.com" className="hover:text-primary transition">
-                  info@suaveeTech.com
+                <a href="mailto:info@suavee.tech" className="hover:text-primary transition">
+                  info@suavee.tech
                 </a>
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 <a href="tel:+1234567890" className="hover:text-primary transition">
-                  +1 (234) 567-890
+                  +917018633650
                 </a>
               </li>
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-1" />
-                <span>123 Tech Street, San Francisco, CA 94105</span>
+                <span>Top Floor Bhaskar Bhawan Devnagar Shimla -171009, Himachal Pradesh, India</span>
               </li>
             </ul>
           </div>

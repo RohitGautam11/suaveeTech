@@ -43,8 +43,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">info@suaveeTech.com</p>
-                    <p className="text-gray-600">support@suaveeTech.com</p>
+                    <p className="text-gray-600">info@suavee.tech</p>
+                    <p className="text-gray-600">support@suavee.tech</p>
                   </div>
                 </div>
 

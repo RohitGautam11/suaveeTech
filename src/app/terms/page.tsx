@@ -159,11 +159,11 @@ export default function Terms() {
                 <p>
                   <strong>suaveeTech</strong>
                   <br />
-                  Email: legal@suaveeTech.com
+                  Email: info@suavee.tech
                   <br />
-                  Phone: +1 (234) 567-8900
+                  Phone: +917018633650
                   <br />
-                  Address: 123 Tech Street, San Francisco, CA 94105
+                  Top Floor Bhaskar Bhawan Devnagar Shimla -171009, Himachal Pradesh, India
                 </p>
               </div>
             </div>
