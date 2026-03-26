@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://travelsquad.com/sitemap.xml
+Sitemap: https://travelsquad.com/sitemap-blog.xml
+
+# Specific bots
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 1
